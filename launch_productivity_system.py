@@ -19,7 +19,7 @@ def print_banner():
 ║                                                              ║
 ║    MCP + Elite Agents = 5x Productivity Multiplication      ║
 ║                                                              ║
-║    Ready to conquer the universe together, Armando!         ║
+║    Ready to maximize productivity!                          ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
     """

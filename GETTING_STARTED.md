@@ -1,6 +1,6 @@
 # 🚀 Getting Started: Your MCP + Agent Productivity System
 
-*Welcome to your personalized productivity multiplication system, Armando!*
+*Welcome to the MCP + Agent Productivity System!*
 
 ## 🎯 What This System Does
 

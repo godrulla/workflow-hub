@@ -1,5 +1,5 @@
 # 🚀 Workflow Hub - MCP + Agent Productivity System
-*Armando Diaz Silverio - Maximum Productivity Command Center*
+An MCP + Agent productivity orchestration system for managing AI agent workflows.
 
 ## 🎯 Mission
 Orchestrate Elite Agents and Context Engineering MCP to achieve 5x productivity gains across all business ventures.
@@ -69,7 +69,7 @@ workflow-hub/
 
 ### 1. Initialize a New Project
 ```bash
-cd /Users/mando/Desktop/workflow-hub
+cd workflow-hub
 python orchestration/project_init.py --project "New Venture" --type "business"
 ```
 
@@ -185,4 +185,10 @@ python metrics/workflow_analytics.py --optimize
 
 ---
 
-*"Conquering the universe, one orchestrated workflow at a time"* 🌟
+## License
+
+MIT License
+
+---
+
+Built by Armando Diaz Silverio

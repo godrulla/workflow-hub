@@ -317,7 +317,7 @@ class MorningReview:
         
 def main():
     """Main execution"""
-    print("\n🌅 Good morning, Armando! Starting daily review with ORC...\n")
+    print("\nStarting daily review with ORC...\n")
     
     review = MorningReview()
     plan = review.generate_daily_plan()

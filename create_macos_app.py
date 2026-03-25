@@ -50,7 +50,7 @@ def create_app_bundle():
         'NSSupportsAutomaticGraphicsSwitching': True,
         'CFBundleDocumentTypes': [],
         'UTExportedTypeDeclarations': [],
-        'NSHumanReadableCopyright': '© 2025 Exxede Investments. Built for Armando Diaz Silverio.'
+        'NSHumanReadableCopyright': '© 2025 Exxede Investments.'
     }
     
     with open(contents_dir / "Info.plist", "wb") as f:

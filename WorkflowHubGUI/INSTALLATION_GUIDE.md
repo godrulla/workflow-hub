@@ -1,7 +1,7 @@
 # 🚀 Workflow Hub GUI - Installation & Setup Guide
 
 **Executive-Level macOS Application for Maximum Productivity**
-*Built for Armando Diaz Silverio - Universe Conquest Command Center*
+*Native macOS productivity command center*
 
 ## 🎯 Overview
 
@@ -276,4 +276,4 @@ WorkflowHubGUI/
 
 **🌟 Your executive-level Workflow Hub GUI is ready to multiply your productivity and help you conquer the universe! Launch the system and experience the future of business management.**
 
-*Built with precision for Armando Diaz Silverio - CEO, Exxede Investments*
+Built by Armando Diaz Silverio
