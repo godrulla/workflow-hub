@@ -1,0 +1,1 @@
+/Users/mando/Desktop/workflow-hub/daily-ops/plans/2025-08-08_plan.md

@@ -1,0 +1,11 @@
+field_parameters:
+  attractor_threshold: 0.7
+  boundary_permeability: 0.8
+  decay_rate: 0.05
+  resonance_bandwidth: 0.6
+max_context_atoms: 20
+protocols:
+  auto_pruning: true
+  memory_persistence: true
+  resonance_scaffolding: true
+token_budget: 4000

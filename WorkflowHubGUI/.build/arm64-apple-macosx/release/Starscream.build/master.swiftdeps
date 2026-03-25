@@ -1,0 +1,27 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "5c62e30241ee47cd2b47a5b4ab37655d003d3fb4ab6ac2359527b1d9edef5617"
+build_start_time: [1754674019, 152183000]
+build_end_time: [1754674020, 985806000]
+inputs:
+  ? "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/arm64-apple-macosx/release/Starscream.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1754671408, 330115929]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Compression/Compression.swift": [1754662976, 712110891]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Compression/WSCompression.swift": [1754662976, 712252765]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/DataBytes/Data+Extensions.swift": [1754662976, 712389098]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Engine/Engine.swift": [1754662976, 712519514]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Engine/NativeEngine.swift": [1754662976, 712681637]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Engine/WSEngine.swift": [1754662976, 712815012]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Framer/FoundationHTTPHandler.swift": [1754662976, 713037093]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Framer/FoundationHTTPServerHandler.swift": [1754662976, 713127551]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Framer/FrameCollector.swift": [1754662976, 713202050]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Framer/Framer.swift": [1754662976, 713299758]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Framer/HTTPHandler.swift": [1754662976, 713475923]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Framer/StringHTTPHandler.swift": [1754662976, 714075003]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Security/FoundationSecurity.swift": [1754662976, 714404750]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Security/Security.swift": [1754662976, 714491500]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Server/Server.swift": [1754662976, 714621415]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Server/WebSocketServer.swift": [1754662976, 714805206]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Starscream/WebSocket.swift": [1754662976, 715105454]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Transport/FoundationTransport.swift": [1754662976, 715288077]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Transport/TCPTransport.swift": [1754662976, 715463409]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/checkouts/Starscream/Sources/Transport/Transport.swift": [1754662976, 715543992]

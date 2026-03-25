@@ -1,0 +1,107 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/master.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/ContentView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ContentView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ContentView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ContentView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/AppStateManager.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AppStateManager.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AppStateManager.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AppStateManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AppStateManager.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/ClaudeTerminalManager.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalManager.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalManager.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalManager.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/ProcessExecutor.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProcessExecutor.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProcessExecutor.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProcessExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProcessExecutor.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/WebSocketManager.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/WebSocketManager.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/WebSocketManager.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/WebSocketManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/WebSocketManager.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Models/ClaudeSession.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeSession.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeSession.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeSession.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Models/DataModels.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/DataModels.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/DataModels.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/DataModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/DataModels.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/AgentManagementPanelView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentManagementPanelView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentManagementPanelView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentManagementPanelView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentManagementPanelView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/AgentMonitoringView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentMonitoringView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentMonitoringView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentMonitoringView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/AgentMonitoringView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/ClaudeTerminalView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ClaudeTerminalView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/Components/SimpleTerminalOutputView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/SimpleTerminalOutputView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/SimpleTerminalOutputView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/SimpleTerminalOutputView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/SimpleTerminalOutputView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/Components/TerminalInputView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalInputView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalInputView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalInputView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalInputView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/Components/TerminalOutputView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalOutputView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalOutputView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalOutputView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/TerminalOutputView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/MainContentView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/MainContentView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/MainContentView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/MainContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/MainContentView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/NavigationSidebar.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/NavigationSidebar.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/NavigationSidebar.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/NavigationSidebar~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/NavigationSidebar.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/ProjectCommandCenterView.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProjectCommandCenterView.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProjectCommandCenterView.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProjectCommandCenterView~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/ProjectCommandCenterView.swiftdeps"
+  },
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/main.swift": {
+    "dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/main.d",
+    "object": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/main.swift.o",
+    "swiftmodule": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/x86_64-apple-macosx/debug/WorkflowHubGUI.build/main.swiftdeps"
+  }
+}

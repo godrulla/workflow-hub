@@ -1,0 +1,184 @@
+{
+  "date": "2025-08-08",
+  "projects": {
+    "exxede.diy": {
+      "name": "exxede.diy",
+      "path": "/Users/mando/Desktop/\ud83c\udfe2 Business-Projects/Exxede/exxede.diy",
+      "has_context": false,
+      "last_modified": "2025-07-31 11:54:53.978521",
+      "priority": 5,
+      "status": "active"
+    },
+    "ReppingDR": {
+      "name": "ReppingDR",
+      "path": "/Users/mando/Desktop/\ud83c\udfe2 Business-Projects/ReppingDR",
+      "has_context": false,
+      "last_modified": "2025-07-26 14:20:58.580667",
+      "priority": 5,
+      "status": "active"
+    },
+    "CLAI": {
+      "name": "CLAI",
+      "path": "/Users/mando/Desktop/\ud83e\udd16 AI-ML-Projects/clai",
+      "has_context": false,
+      "last_modified": "2025-08-07 12:43:14.282002",
+      "priority": 4,
+      "status": "active"
+    },
+    "Context-Engineering": {
+      "name": "Context-Engineering",
+      "path": "/Users/mando/Desktop/\ud83c\udfe2 Business-Projects/Exxede/Context-Engineering",
+      "has_context": false,
+      "last_modified": "2025-07-07 16:41:25.415231",
+      "priority": 4,
+      "status": "active"
+    },
+    "Ocean Paradise": {
+      "name": "Ocean Paradise",
+      "path": "/Users/mando/Desktop/\ud83c\udfe2 Business-Projects/Ocean-Paradise",
+      "has_context": false,
+      "last_modified": "2025-08-05 18:40:31.346115",
+      "priority": 3,
+      "status": "active"
+    },
+    "terminal-master": {
+      "name": "terminal-master",
+      "path": "/Users/mando/Desktop/\ud83e\udd16 AI-ML-Projects/terminal-master",
+      "has_context": false,
+      "last_modified": "2025-07-14 14:52:46.669284",
+      "priority": 3,
+      "status": "active"
+    }
+  },
+  "tasks": [
+    {
+      "project": "exxede.diy",
+      "task": "Review deployment status and metrics",
+      "agent": "ORC",
+      "priority": 5,
+      "estimated_time": 30
+    },
+    {
+      "project": "exxede.diy",
+      "task": "Check for critical bugs or issues",
+      "agent": "ZEN",
+      "priority": 5,
+      "estimated_time": 45
+    },
+    {
+      "project": "ReppingDR",
+      "task": "Update tourism content and offerings",
+      "agent": "ECHO",
+      "priority": 4,
+      "estimated_time": 60
+    },
+    {
+      "project": "ReppingDR",
+      "task": "Analyze market opportunities",
+      "agent": "SAGE",
+      "priority": 4,
+      "estimated_time": 45
+    },
+    {
+      "project": "Context-Engineering",
+      "task": "Optimize MCP performance and context fields",
+      "agent": "ARQ",
+      "priority": 4,
+      "estimated_time": 60
+    },
+    {
+      "project": "Context-Engineering",
+      "task": "Test new protocol shells",
+      "agent": "NOVA",
+      "priority": 3,
+      "estimated_time": 45
+    },
+    {
+      "project": "Ocean Paradise",
+      "task": "Market analysis for real estate opportunity",
+      "agent": "SAGE",
+      "priority": 3,
+      "estimated_time": 90
+    },
+    {
+      "project": "Ocean Paradise",
+      "task": "Design property showcase",
+      "agent": "VEX",
+      "priority": 3,
+      "estimated_time": 60
+    }
+  ],
+  "agent_assignments": {
+    "ARQ": [
+      {
+        "project": "Context-Engineering",
+        "task": "Optimize MCP performance and context fields",
+        "agent": "ARQ",
+        "priority": 4,
+        "estimated_time": 60
+      }
+    ],
+    "ORC": [
+      {
+        "project": "exxede.diy",
+        "task": "Review deployment status and metrics",
+        "agent": "ORC",
+        "priority": 5,
+        "estimated_time": 30
+      }
+    ],
+    "ZEN": [
+      {
+        "project": "exxede.diy",
+        "task": "Check for critical bugs or issues",
+        "agent": "ZEN",
+        "priority": 5,
+        "estimated_time": 45
+      }
+    ],
+    "VEX": [
+      {
+        "project": "Ocean Paradise",
+        "task": "Design property showcase",
+        "agent": "VEX",
+        "priority": 3,
+        "estimated_time": 60
+      }
+    ],
+    "SAGE": [
+      {
+        "project": "ReppingDR",
+        "task": "Analyze market opportunities",
+        "agent": "SAGE",
+        "priority": 4,
+        "estimated_time": 45
+      },
+      {
+        "project": "Ocean Paradise",
+        "task": "Market analysis for real estate opportunity",
+        "agent": "SAGE",
+        "priority": 3,
+        "estimated_time": 90
+      }
+    ],
+    "NOVA": [
+      {
+        "project": "Context-Engineering",
+        "task": "Test new protocol shells",
+        "agent": "NOVA",
+        "priority": 3,
+        "estimated_time": 45
+      }
+    ],
+    "ECHO": [
+      {
+        "project": "ReppingDR",
+        "task": "Update tourism content and offerings",
+        "agent": "ECHO",
+        "priority": 4,
+        "estimated_time": 60
+      }
+    ]
+  },
+  "priorities": []
+}

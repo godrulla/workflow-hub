@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Workflow Hub macOS App Launcher - TEST VERSION
+# This will help us debug what's happening
+
+# Get the directory of this app bundle
+APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../" && pwd)"
+
+# Change to the project directory
+cd "$APP_DIR"
+
+# Run the test launcher
+./test_launcher.sh

@@ -1,0 +1,163 @@
+# Product Development Workflow Template
+# For: End-to-end product development from design to deployment
+
+workflow:
+  name: product_development
+  description: Complete product development cycle from UI/UX to production deployment
+  version: 1.0
+  author: Armando Diaz Silverio
+
+stages:
+  - stage: ui_ux_design
+    agent: VEX
+    description: Create comprehensive UI/UX design and user experience
+    inputs:
+      - product_requirements
+      - user_personas
+      - brand_guidelines
+    tasks:
+      - Create user journey maps
+      - Design wireframes and mockups
+      - Develop design system components
+      - Create interactive prototypes
+      - Conduct usability analysis
+      - Design responsive layouts
+      - Ensure accessibility compliance
+    outputs:
+      - design_system
+      - figma_designs
+      - prototype_links
+      - usability_report
+    duration: 4-6 hours
+    
+  - stage: clean_implementation
+    agent: ZEN
+    description: Implement clean, maintainable, and efficient code
+    inputs:
+      - design_system
+      - technical_requirements
+      - api_specifications
+    tasks:
+      - Implement core functionality
+      - Write clean, self-documenting code
+      - Create reusable components
+      - Optimize algorithms and performance
+      - Implement design patterns
+      - Write comprehensive tests
+      - Refactor for maintainability
+    outputs:
+      - source_code
+      - test_suite
+      - documentation
+      - performance_metrics
+    duration: 6-8 hours
+    
+  - stage: architecture_review
+    agent: ARQ
+    description: Review and optimize system architecture
+    inputs:
+      - source_code
+      - scalability_requirements
+      - integration_needs
+    tasks:
+      - Review code architecture
+      - Optimize for scalability
+      - Design microservices if needed
+      - Plan database optimization
+      - Setup caching strategies
+      - Configure load balancing
+      - Design fault tolerance
+    outputs:
+      - architecture_review
+      - optimization_recommendations
+      - deployment_architecture
+      - scaling_strategy
+    duration: 2-3 hours
+    
+  - stage: user_engagement
+    agent: ECHO
+    description: Plan user engagement and community building
+    inputs:
+      - product_features
+      - target_audience
+      - market_positioning
+    tasks:
+      - Create content strategy
+      - Design onboarding experience
+      - Plan community engagement
+      - Develop user documentation
+      - Create marketing materials
+      - Design feedback loops
+      - Plan launch strategy
+    outputs:
+      - content_calendar
+      - onboarding_flow
+      - community_plan
+      - launch_strategy
+    duration: 3-4 hours
+
+parallel_optimization:
+  enabled: true
+  max_parallel: 3
+  optimization_rules:
+    - VEX completes before ZEN starts
+    - ARQ and ECHO can run in parallel after ZEN
+    - Final integration requires all stages
+
+context_persistence:
+  enabled: true
+  persistence_points:
+    - after: ui_ux_design
+      fields: [design_system, user_flows, components]
+    - after: clean_implementation
+      fields: [code_patterns, test_coverage, performance]
+    - after: architecture_review
+      fields: [scalability_plan, infrastructure]
+    - after: user_engagement
+      fields: [launch_plan, community_strategy]
+
+quality_gates:
+  - stage: ui_ux_design
+    criteria:
+      - All user stories covered
+      - Accessibility score > 95%
+      - Mobile responsiveness verified
+  - stage: clean_implementation
+    criteria:
+      - Test coverage > 80%
+      - No critical vulnerabilities
+      - Performance benchmarks met
+  - stage: architecture_review
+    criteria:
+      - Scalability validated
+      - Security approved
+      - Cost optimized
+  - stage: user_engagement
+    criteria:
+      - Content calendar complete
+      - Documentation comprehensive
+      - Launch plan approved
+
+success_metrics:
+  - Design approval from stakeholders
+  - Code quality score > 90%
+  - Test coverage > 80%
+  - Performance targets met
+  - Scalability validated
+  - User engagement strategy defined
+  - Launch readiness confirmed
+
+triggers:
+  - New product development
+  - Major feature addition
+  - Product redesign
+  - Platform migration
+  - Performance optimization
+
+integration_points:
+  - GitHub/GitLab repositories
+  - CI/CD pipelines
+  - Design tools (Figma, Sketch)
+  - Project management tools
+  - Analytics platforms
+  - Context Engineering MCP

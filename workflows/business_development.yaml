@@ -1,0 +1,130 @@
+# Business Development Workflow Template
+# For: Market analysis, opportunity identification, and strategic planning
+
+workflow:
+  name: business_development
+  description: Complete business development cycle from market analysis to execution planning
+  version: 1.0
+  author: Armando Diaz Silverio
+
+stages:
+  - stage: market_analysis
+    agent: SAGE
+    description: Comprehensive market analysis and opportunity identification
+    inputs:
+      - market_segment
+      - target_region
+      - competitive_landscape
+    tasks:
+      - Analyze market size and growth potential
+      - Identify key competitors and their strategies
+      - Assess regulatory environment
+      - Evaluate customer needs and pain points
+      - Determine market entry barriers
+    outputs:
+      - market_report
+      - opportunity_matrix
+      - risk_assessment
+    duration: 2-4 hours
+    
+  - stage: innovation_opportunities
+    agent: NOVA
+    description: Identify breakthrough innovations and differentiators
+    inputs:
+      - market_report
+      - technology_trends
+      - customer_insights
+    tasks:
+      - Identify emerging technologies applicable to market
+      - Discover unmet customer needs
+      - Generate innovative solution concepts
+      - Evaluate feasibility of breakthrough ideas
+      - Create innovation roadmap
+    outputs:
+      - innovation_report
+      - concept_designs
+      - technology_recommendations
+    duration: 2-3 hours
+    
+  - stage: technical_architecture
+    agent: ARQ
+    description: Design scalable technical architecture
+    inputs:
+      - innovation_report
+      - business_requirements
+      - scalability_needs
+    tasks:
+      - Define system architecture
+      - Select technology stack
+      - Design data architecture
+      - Plan integration points
+      - Create security framework
+      - Estimate infrastructure costs
+    outputs:
+      - architecture_blueprint
+      - technology_stack
+      - cost_estimates
+    duration: 3-4 hours
+    
+  - stage: execution_planning
+    agent: ORC
+    description: Create detailed execution and project plan
+    inputs:
+      - market_report
+      - innovation_report
+      - architecture_blueprint
+    tasks:
+      - Define project phases and milestones
+      - Allocate resources and responsibilities
+      - Create timeline with dependencies
+      - Identify critical path
+      - Develop risk mitigation strategies
+      - Setup monitoring and KPIs
+    outputs:
+      - project_plan
+      - resource_allocation
+      - timeline
+      - kpi_dashboard
+    duration: 2-3 hours
+
+parallel_optimization:
+  enabled: true
+  max_parallel: 2
+  optimization_rules:
+    - SAGE and NOVA can run in parallel after initial context
+    - ARQ requires NOVA output before starting
+    - ORC requires all previous outputs
+
+context_persistence:
+  enabled: true
+  persistence_points:
+    - after: market_analysis
+      fields: [market_size, competitors, opportunities]
+    - after: innovation_opportunities
+      fields: [breakthrough_ideas, technology_stack]
+    - after: technical_architecture
+      fields: [system_design, infrastructure]
+    - after: execution_planning
+      fields: [project_timeline, milestones, kpis]
+
+success_metrics:
+  - Market opportunity clearly identified
+  - Innovation differentiators defined
+  - Scalable architecture designed
+  - Executable project plan created
+  - All risks assessed and mitigated
+  - Clear ROI projection established
+
+triggers:
+  - New market entry consideration
+  - Business expansion planning
+  - Product portfolio expansion
+  - Strategic partnership evaluation
+  - Investment opportunity assessment
+
+integration_points:
+  - PROJECT_MASTER_DASHBOARD
+  - Context Engineering MCP
+  - Business project repositories
+  - Financial modeling tools
+  - Market research databases

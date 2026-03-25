@@ -1,0 +1,19 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "f994d6edaff71817d56121468ec01493006a396a01d6c6914e58cad2ea21c6fe"
+build_start_time: [1754675224, 279117000]
+build_end_time: [1754675229, 613003000]
+inputs:
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/ContentView.swift": [1754674056, 255085170]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/AppStateManager.swift": [1754664870, 413870870]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/ClaudeTerminalManager.swift": [1754667082, 293949735]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/ProcessExecutor.swift": [1754668058, 663762369]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Core/WebSocketManager.swift": [1754663247, 4534142]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Models/ClaudeSession.swift": [1754664988, 876903602]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Models/DataModels.swift": [1754675110, 389193706]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/AgentMonitoringView.swift": [1754675190, 520497840]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/ClaudeTerminalView.swift": [1754674009, 904214511]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/Components/SimpleTerminalOutputView.swift": [1754667062, 947716288]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/Components/TerminalInputView.swift": [1754666773, 444477127]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/MainContentView.swift": [1754675114, 985479443]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/Views/NavigationSidebar.swift": [1754673199, 951889785]
+  "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/Sources/main.swift": [1754673219, 40894809]

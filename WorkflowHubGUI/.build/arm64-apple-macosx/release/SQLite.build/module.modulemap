@@ -1,0 +1,4 @@
+module SQLite {
+    header "/Users/mando/Desktop/workflow-hub/WorkflowHubGUI/.build/arm64-apple-macosx/release/SQLite.build/SQLite-Swift.h"
+    requires objc
+}

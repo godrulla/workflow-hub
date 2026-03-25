@@ -1,0 +1,206 @@
+# Dominican Market Expansion Workflow Template
+# For: Market entry and expansion in Dominican Republic
+
+workflow:
+  name: dominican_market_expansion
+  description: Strategic workflow for Dominican Republic market entry and growth
+  version: 1.0
+  author: Armando Diaz Silverio
+  region_focus: Dominican Republic, Caribbean
+
+stages:
+  - stage: market_analysis_dr
+    agent: SAGE
+    description: Deep analysis of Dominican Republic market dynamics
+    specialist: dominican-market-specialist
+    inputs:
+      - industry_sector
+      - target_cities  # Santo Domingo, Santiago, Punta Cana
+      - investment_budget
+    tasks:
+      - Analyze Dominican economic indicators
+      - Research local competition landscape
+      - Evaluate regulatory requirements (DGII, ProIndustria)
+      - Assess infrastructure readiness
+      - Study consumer behavior patterns
+      - Identify key business partnerships
+      - Analyze tourism impact on market
+      - Evaluate free trade zones opportunities
+    outputs:
+      - dr_market_report
+      - regulatory_compliance_guide
+      - partnership_opportunities
+      - risk_assessment
+    duration: 3-4 hours
+    
+  - stage: cultural_adaptation
+    agent: ECHO
+    description: Adapt product/service for Dominican culture and preferences
+    inputs:
+      - product_specifications
+      - dr_market_report
+      - brand_identity
+    tasks:
+      - Adapt messaging for Dominican Spanish
+      - Consider cultural sensitivities and preferences
+      - Design for local holidays and traditions
+      - Create bilingual content (Spanish/English for tourism)
+      - Adapt for local payment methods
+      - Consider Dominican social media preferences
+      - Design community engagement strategies
+      - Plan influencer partnerships
+    outputs:
+      - localized_content
+      - cultural_guidelines
+      - community_strategy
+      - marketing_materials
+    duration: 3-4 hours
+    
+  - stage: strategic_planning
+    agent: SAGE
+    description: Develop comprehensive market entry strategy
+    inputs:
+      - dr_market_report
+      - cultural_guidelines
+      - business_objectives
+    tasks:
+      - Define market entry strategy
+      - Plan distribution channels
+      - Design pricing strategy (consider PPP)
+      - Identify strategic partners
+      - Plan pilot market approach
+      - Create financial projections
+      - Design competitive positioning
+      - Plan government relations strategy
+    outputs:
+      - entry_strategy
+      - financial_model
+      - partnership_plan
+      - government_relations_plan
+    duration: 3-4 hours
+    
+  - stage: innovation_localization
+    agent: NOVA
+    description: Identify innovation opportunities specific to DR market
+    inputs:
+      - dr_market_report
+      - technology_landscape
+      - infrastructure_assessment
+    tasks:
+      - Identify DR-specific innovation opportunities
+      - Adapt technology for local infrastructure
+      - Design mobile-first solutions
+      - Plan for intermittent connectivity
+      - Create offline capabilities
+      - Design for tropical climate considerations
+      - Identify fintech opportunities
+      - Plan renewable energy integration
+    outputs:
+      - innovation_roadmap
+      - technology_adaptations
+      - infrastructure_plan
+    duration: 2-3 hours
+    
+  - stage: execution_orchestration
+    agent: ORC
+    description: Orchestrate market entry execution plan
+    inputs:
+      - entry_strategy
+      - cultural_guidelines
+      - innovation_roadmap
+      - partnership_plan
+    tasks:
+      - Create phased rollout plan
+      - Define success metrics and KPIs
+      - Allocate resources for DR operations
+      - Plan team structure and hiring
+      - Design operational workflows
+      - Setup monitoring systems
+      - Create contingency plans
+      - Plan stakeholder communication
+    outputs:
+      - execution_plan
+      - operational_playbook
+      - kpi_framework
+      - team_structure
+    duration: 3-4 hours
+
+dominican_specific:
+  key_considerations:
+    - Business hours: Consider extended lunch breaks
+    - Payment methods: Cash still dominant, growing digital adoption
+    - Language: Spanish primary, English in tourism zones
+    - Internet: Variable connectivity outside major cities
+    - Mobile: High smartphone penetration
+    - Social: WhatsApp dominant for business communication
+    
+  regulatory_requirements:
+    - RNC (Registro Nacional del Contribuyente)
+    - DGII tax compliance
+    - Ministry of Industry and Commerce permits
+    - Municipal business licenses
+    - Labor law compliance (Código de Trabajo)
+    
+  key_partnerships:
+    - Local distributors
+    - Banking relationships (Popular, BHD León, Banreservas)
+    - Telecom providers (Claro, Altice)
+    - Tourism sector connections
+    - Free zone operators
+    
+  market_opportunities:
+    - Tourism and hospitality
+    - Real estate and construction
+    - Renewable energy
+    - Agribusiness
+    - Digital services
+    - Education technology
+    - Healthcare services
+    - Logistics and transportation
+
+parallel_optimization:
+  enabled: true
+  max_parallel: 2
+  optimization_rules:
+    - Market analysis must complete first
+    - Cultural adaptation and innovation can run parallel
+    - Strategic planning requires market and cultural inputs
+    - Execution requires all previous outputs
+
+context_persistence:
+  enabled: true
+  persistence_points:
+    - after: market_analysis_dr
+      fields: [market_size, regulations, opportunities]
+    - after: cultural_adaptation
+      fields: [localization, community, messaging]
+    - after: strategic_planning
+      fields: [entry_strategy, partnerships, timeline]
+    - after: execution_orchestration
+      fields: [rollout_plan, kpis, team]
+
+success_metrics:
+  - Market entry feasibility confirmed
+  - Regulatory compliance mapped
+  - Local partnerships identified
+  - Cultural adaptation complete
+  - Financial projections validated
+  - Pilot market selected
+  - Team structure defined
+  - Launch timeline established
+
+triggers:
+  - New market expansion to DR
+  - Tourism sector opportunities
+  - Real estate ventures in DR
+  - Digital service launches
+  - Partnership opportunities
+  - Government incentive programs
+
+integration_points:
+  - ReppingDR platform
+  - Prolici construction network
+  - Dominican government portals
+  - Local banking systems
+  - Tourism platforms
+  - Context Engineering MCP
